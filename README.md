@@ -9,12 +9,12 @@ const rules = [
   {
     field: 'email',
     validations: ['required', 'email'],
-    name: 'User email' // used to show error
+    name: 'User email' // used to show in error message
   },
   {
     field: 'password',
     validations: ['required', 'password', 'confirm', 'digit:10'],
-    name: 'Password' // used to show error
+    name: 'Password' // used to show in error message
   }
 ];
 
