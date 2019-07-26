@@ -5,12 +5,12 @@ Validation package for react, inspired by laravel validation.
 Install it using the npm package manager.
 
 ```
-npm install react-validator
+npm install validator-react
 ```
 
 ## Usage Example
 ```JS
-import validate from 'react-validator';
+import validate from 'validator-react';
 
 const rules = [
   {
