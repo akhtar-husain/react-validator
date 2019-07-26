@@ -1,6 +1,10 @@
 # React Validator
 Validation package for react, inspired by laravel validation.
 
+## Getting Started
+Install it using the npm package manager.
+``` npm install react-validator ```
+
 ## Usage Example
 ```JS
 import validate from 'react-validator';
@@ -36,3 +40,5 @@ class Login extends Component {
   }
 }
 ```
+## Authors
+* [https://github.com/akhtar-husain]Akhtar Husain
