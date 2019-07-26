@@ -41,4 +41,4 @@ class Login extends Component {
 }
 ```
 ## Authors
-* [https://github.com/akhtar-husain]Akhtar Husain
+* [Akhtar Husain](https://github.com/akhtar-husain)
