@@ -37,9 +37,9 @@ class Login extends Component {
   
   _validate() {
     const { formFields } = this.state;
-    const validRes = validate(formFields, rules);
-    this.setState(() => ({ errors: validRes.errors, isValidForm: validRes.isValid }));
-    return validRes.isValid;
+    const { isValid, errors } = validate(formFields, rules);
+    this.setState(() => ({ errors, isValidForm: isValid }));
+    return isValid;
   }
 }
 ```
